@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif; /*fontes da página*/
+}
+
+body {
+  height: 100vh; /*vh altura da tela toda*/
+  width: 100vw; /* vw largura da tela toda*/
+  display: flex;
+  justify-content: center; /*alinha no eixo horizontal da pagina*/
+  align-items: center; /*alinha no eixo vertical da pagina */
+  background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+.big-box {
+  background: black;
+  opacity: 0.8;
+  border-radius: 25px;
+  padding: 20px;
+  width: 95%;
+  max-width: 400px;
+}
+
+.input-city {
+  border: none;
+  outline: none; /*linha azul em cima do input*/
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 20px; /*letras ficarem um pouco maiores*/
+  background-color: #7c7c7c2b;
+  color: #ffffff;
+  width: calc(100% - 70px);
+}
+
+.botao-busca {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #7c7c7c2b;
+  cursor: pointer; /*fica maozinha em cima do icone*/
+  float: right; /*joga o botão todo pra direita*/
+}
+
+.img-busca {
+  width: 20px;
+}
+
+.city {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 300px;
+  margin-top: 30px; /*ele não fica colado na caixa "div" */
+}
+
+.temp {
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.smaller-box {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.text-previsao {
+  color: #ffffff;
+  margin-left: 20px;
+  text-transform: capitalize;
+}
+.umidade {
+  color: #ffffff;
+  margin-top: 20px;
+}
